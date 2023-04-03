@@ -108,7 +108,7 @@
 
 
 
-    <!-- yolov7 visualization -->
+    <!-- yolov7 visualization in cam -->
     <node name="YOLOV7" pkg="image_view" type="image_view" respawn="false" output="screen">
         <remap from="image" to="/yolov7/yolov7/visualization_traffic"/>
         <param name="autosize" value="true" />
